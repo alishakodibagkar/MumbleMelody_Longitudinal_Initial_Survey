@@ -1,2 +1,1 @@
-# MumbleMelody_Longitudinal_Initial_Survey
-Initial survey for Mumble Melody longitudinal study
+# This repository contains the initial survey for the Mumble Melody longitudinal study.
