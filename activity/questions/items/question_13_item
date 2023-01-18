@@ -1,32 +1,40 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "fluencyToday_item",
-    "prefLabel": "Question on current fluency",
-    "description": "Question on current fluency - radio item",
+    "@id": "question_13_item",
+    "prefLabel": "Question 13",
+    "description": "Question 13",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "How would you describe your speaking fluency today, compared to your usual fluency?",
+    "question": "Do you stutter in your dreams?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 2,
+        "maxValue": 4,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "My stutter is more severe today",
+                "name": "Never",
                 "value": 0
             },
             {
-                "name": "Same",
+                "name": "Rarely",
                 "value": 1
             },
             {
-                "name": "My stutter is more mild today",
+                "name": "Occasionally",
                 "value": 2
+            },
+            {
+                "name": "Often",
+                "value": 3
+            },
+            {
+                "name": "Always",
+                "value": 4
             }
         ]
     }
