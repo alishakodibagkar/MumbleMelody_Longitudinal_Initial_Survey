@@ -46,7 +46,7 @@
                 },
 	       {"isAbout": "items/question_4.1_item",
                 "variableName": "question_4.1_item",
-                "isVis": question_4_item === 1,
+                "isVis": "question_4_item === 1",
 	        "allow": [
                     "reproschema:Skipped"
                 ]
@@ -60,7 +60,7 @@
                 },
 	       {"isAbout": "items/question_5.1_item",
                 "variableName": "question_5.1_item",
-                "isVis": question_5_item === 4,
+                "isVis": "question_5_item === 4",
 	        "allow": [
                     "reproschema:Skipped"
                 ]
@@ -74,7 +74,7 @@
                 },
 	       {"isAbout": "items/question_6.1_item",
                 "variableName": "question_6.1_item",
-                "isVis": question_6_item === 4,
+                "isVis": "question_6_item === 4",
 	        "allow": [
                     "reproschema:Skipped"
                 ]
