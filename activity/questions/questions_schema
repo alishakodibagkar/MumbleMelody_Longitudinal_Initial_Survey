@@ -141,6 +141,20 @@
 	        "allow": [
                     "reproschema:Skipped"
                 ]
+                },
+	       {"isAbout": "items/question_12.3_item",
+                "variableName": "question_12.3_item",
+                "isVis": "question_12.1_item === 3",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_12.4_item",
+                "variableName": "question_12.4_item",
+                "isVis": "question_12.2_item === 3",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
                 }
         ],
         "order": [
@@ -162,7 +176,9 @@
              "items/question_11.1_item",
              "items/question_12_item",
              "items/question_12.1_item",
-             "items/question_12.2_item"
+             "items/question_12.2_item",
+             "items/question_12.3_item",
+             "items/question_12.4_item"
         ],
         "shuffle": false,
         "allow": [
