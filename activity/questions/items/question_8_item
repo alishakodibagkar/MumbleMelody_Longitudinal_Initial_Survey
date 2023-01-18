@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_8_item",
+    "prefLabel": "Question 8",
+    "description": "Question 8",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "WHow would you rate your fluency?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Mild stutter",
+                "value": 0
+            },
+            {
+                "name": "Mild/moderate stutter",
+                "value": 1
+            },
+            {
+                "name": "Moderate stutter",
+                "value": 2
+            },
+            {
+                "name": "Moderate/Severe Stutter",
+                "value": 3
+            },
+            {
+                "name": "Severe stutter",
+                "value": 4
+            }
+        ]
+    }
+}
