@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "fluencyToday_item",
+    "prefLabel": "Question on current fluency",
+    "description": "Question on current fluency - radio item",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "What is your age?",
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer"
+    }
+}

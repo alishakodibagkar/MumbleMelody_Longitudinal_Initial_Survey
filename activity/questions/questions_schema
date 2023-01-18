@@ -9,43 +9,13 @@
     "version": "0.0.1",
     "ui": {
         "addProperties": [
-		{"isAbout": "items/fluencyToday_item",
-                "variableName": "fluencyToday_item",
+		{"isAbout": "items/question_1_item",
+                "variableName": "question_1_item",
                 "isVis": true
-                },
-		{"isAbout": "items/healthToday_item",
-                "variableName": "healthToday_item",
-                "isVis": true
-                },
-		{"isAbout": "items/healthTodayDescription_item",
-                "variableName": "healthTodayDescription_item",
-                "isVis": "healthToday_item === 0"
-                },
-		{"isAbout": "items/voiceHealth_item",
-                "variableName": "voiceHealth_item",
-                "isVis": true
-                },
-		{"isAbout": "items/voiceHealthWarning_item",
-                "variableName": "voiceHealthWarning_item",
-                "isVis": "voiceHealth_item === 0"
-                },
-		{"isAbout": "items/otherHealth_item",
-                "variableName": "otherHealth_item",
-                "isVis": true
-                },
-		{"isAbout": "items/otherHealthDescription_item",
-                "variableName": "otherHealthDescription_item",
-                "isVis": "otherHealth_item === 0"
                 }
         ],
         "order": [
-	    "items/fluencyToday_item",
-            "items/healthToday_item",
-	    "items/healthTodayDescription_item",
-	    "items/voiceHealth_item",
-            "items/voiceHealthWarning_item",
-	    "items/otherHealth_item",
-            "items/otherHealthDescription_item"
+	    "items/question_1_item"
         ],
         "shuffle": false,
         "allow": [
