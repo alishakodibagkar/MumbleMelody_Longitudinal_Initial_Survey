@@ -1,28 +1,32 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_2_item",
-    "prefLabel": "Question 2",
-    "description": "Question 2",
+    "@id": "question_item_2",
+    "prefLabel": "radio item",
+    "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "What is your sex at birth?",
+    "question": "This is an example of a radio item with several possible answers to choose from (only one answer allowed).",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 1,
+        "maxValue": 2,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Male",
+                "name": "Response option 1",
                 "value": 0
             },
             {
-                "name": "Female",
+                "name": "Response option 2",
                 "value": 1
+            },
+            {
+                "name": "Response option 3",
+                "value": 2
             }
         ]
     }
