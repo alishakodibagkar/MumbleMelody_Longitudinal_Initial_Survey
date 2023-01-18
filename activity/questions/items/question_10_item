@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_10_item",
+    "prefLabel": "Question 10",
+    "description": "Question 10",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "What is your household composition?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Single, never married",
+                "value": 0
+            },
+            {
+                "name": "Married or domestic partnership",
+                "value": 1
+            },
+            {
+                "name": "Widowed",
+                "value": 2
+            },
+            {
+                "name": "Divorced",
+                "value": 3
+            },
+            {
+                "name": "Separated",
+                "value": 4
+            }
+        ]
+    }
+}
