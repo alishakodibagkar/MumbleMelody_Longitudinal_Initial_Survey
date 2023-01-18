@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_5_item",
+    "prefLabel": "Question 5",
+    "description": "Question 5",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Do you stutter? Or have you ever stuttered?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 0
+            },
+            {
+                "name": "No",
+                "value": 1
+            },
+            {
+                "name": "Maybe",
+                "value": 2
+            },
+            {
+                "name": "Yes in the past but not anymore",
+                "value": 3
+            },
+            {
+                "name": "Other, please specify",
+                "value": 4
+            }
+        ]
+    }
+}

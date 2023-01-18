@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_5.1_item",
+    "prefLabel": "Question 5.1",
+    "description": "Question 5.1",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Please specify:",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}
