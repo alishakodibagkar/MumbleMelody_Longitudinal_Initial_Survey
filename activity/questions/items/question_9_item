@@ -1,0 +1,61 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_9_item",
+    "prefLabel": "Question 9",
+    "description": "Question 9",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "What is your education level?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 9,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "No schooling completed",
+                "value": 0
+            },
+            {
+                "name": "Nursery school to 8th grade",
+                "value": 1
+            },
+            {
+                "name": "Some high school, no diploma",
+                "value": 2
+            },
+            {
+                "name": "High school graduate, diploma or equivalent (ex: GED)",
+                "value": 3
+            },
+            {
+                "name": "Some college credit, no degree",
+                "value": 4
+            },
+            {
+                "name": "Trade/technical/vocational training",
+                "value": 5
+            },
+            {
+                "name": "Associate’s degree",
+                "value": 6
+            },
+            {
+                "name": "Bachelor’s degree",
+                "value": 7
+            },
+            {
+                "name": "Master’s degree",
+                "value": 8
+            },
+            {
+                "name": "Doctorate degree",
+                "value": 9
+            }
+        ]
+    }
+}

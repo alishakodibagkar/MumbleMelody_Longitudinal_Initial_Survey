@@ -6,7 +6,7 @@
     "description": "Question 8",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "WHow would you rate your fluency?",
+    "question": "How would you rate your fluency?",
     "ui": {
         "inputType": "radio"
     },
