@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_21_item",
+    "prefLabel": "Question 21",
+    "description": "Question 21",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Do you have relatives who stutter?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 0
+            },
+            {
+                "name": "No",
+                "value": 1
+            },
+            {
+                "name": "I don’t know",
+                "value": 2
+            }
+        ]
+    }
+}

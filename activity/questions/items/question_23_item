@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_22_item",
+    "prefLabel": "Question 22",
+    "description": "Question 22",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "How often do you experience verbalized mental thoughts (rehearsing talking in your head?)",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "All the time",
+                "value": 0
+            },
+            {
+                "name": "A few times an hour",
+                "value": 1
+            },
+            {
+                "name": "A few times a day",
+                "value": 2
+            },
+            {
+                "name": "Less than once a day",
+                "value": 3
+            },
+            {
+                "name": "Never",
+                "value": 4
+            }
+        ]
+    }
+}

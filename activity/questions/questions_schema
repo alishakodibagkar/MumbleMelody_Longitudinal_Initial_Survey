@@ -211,6 +211,34 @@
 	        "allow": [
                     "reproschema:Skipped"
                 ]
+                },
+	       {"isAbout": "items/question_21_item",
+                "variableName": "question_21_item",
+                "isVis": true,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_21.1_item",
+                "variableName": "question_21.1_item",
+                "isVis": "question_21_item === 0",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_22_item",
+                "variableName": "question_22_item",
+                "isVis": "question_21_item === 0",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_23_item",
+                "variableName": "question_23_item",
+                "isVis": "question_21_item === 0",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
                 }
         ],
         "order": [
@@ -242,7 +270,11 @@
              "items/question_17_item",
              "items/question_18_item",
              "items/question_19_item",
-             "items/question_20_item"
+             "items/question_20_item",
+             "items/question_21_item",
+             "items/question_21.1_item",
+             "items/question_22_item",
+             "items/question_23_item"
         ],
         "shuffle": false,
         "allow": [

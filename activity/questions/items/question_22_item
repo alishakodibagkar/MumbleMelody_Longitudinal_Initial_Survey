@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_22_item",
+    "prefLabel": "Question 22",
+    "description": "Question 22",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Do you sing or play a musical instrument?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Yes, I sing",
+                "value": 0
+            },
+            {
+                "name": "Yes, I play a musical instrument",
+                "value": 1
+            },
+            {
+                "name": "Yes, both",
+                "value": 2
+            },
+            {
+                "name": "No",
+                "value": 3
+            }
+        ]
+    }
+}
