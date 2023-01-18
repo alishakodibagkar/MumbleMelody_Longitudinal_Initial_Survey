@@ -1,0 +1,49 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_7_item",
+    "prefLabel": "Question 7",
+    "description": "Question 7",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "When did you start stuttering?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 6,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Before 2 years old",
+                "value": 0
+            },
+            {
+                "name": "2-5 years old",
+                "value": 1
+            },
+            {
+                "name": "5-7 years old",
+                "value": 2
+            },
+            {
+                "name": "7-10 years old",
+                "value": 3
+            },
+            {
+                "name": "10-18 years old",
+                "value": 4
+            },
+            {
+                "name": "After 18 years old",
+                "value": 5
+            },
+            {
+                "name": "I don’t know",
+                "value": 6
+            }
+        ]
+    }
+}
