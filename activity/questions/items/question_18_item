@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_18_item",
+    "prefLabel": "Question 18",
+    "description": "Question 18",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Do you ever have a sense that you will stutter a short instant before stuttering?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Never",
+                "value": 0
+            },
+            {
+                "name": "Rarely",
+                "value": 1
+            },
+            {
+                "name": "Occasionally",
+                "value": 2
+            },
+            {
+                "name": "Often",
+                "value": 3
+            },
+            {
+                "name": "Always",
+                "value": 4
+            }
+        ]
+    }
+}

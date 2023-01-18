@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_20_item",
+    "prefLabel": "Question 20",
+    "description": "Question 20",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Do you have any other techniques to increase fluency? (i.e. choice of word, slowing down, whispering, preparation, pull-out, preparatory set, etc.?)",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 1200
+    }
+}

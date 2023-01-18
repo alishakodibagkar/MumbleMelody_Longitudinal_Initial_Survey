@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_17_item",
+    "prefLabel": "Question 17",
+    "description": "Question 17",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "What are some instances in which you feel you stutter less?",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 1200
+    }
+}

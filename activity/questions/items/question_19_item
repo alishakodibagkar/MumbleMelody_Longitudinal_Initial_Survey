@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_19_item",
+    "prefLabel": "Question 19",
+    "description": "Question 19",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "How often do you change words when you think you may stutter?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Never",
+                "value": 0
+            },
+            {
+                "name": "Rarely",
+                "value": 1
+            },
+            {
+                "name": "Occasionally",
+                "value": 2
+            },
+            {
+                "name": "Often",
+                "value": 3
+            },
+            {
+                "name": "Always",
+                "value": 4
+            }
+        ]
+    }
+}
