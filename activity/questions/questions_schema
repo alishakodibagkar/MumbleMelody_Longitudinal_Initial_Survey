@@ -18,10 +18,7 @@
                 },
 	        {"isAbout": "items/question_2_item",
                 "variableName": "question_2_item",
-                "isVis": true,
-	        "allow": [
-                    "reproschema:Skipped"
-                ]
+                "isVis": true
                 }
         ],
         "order": [
