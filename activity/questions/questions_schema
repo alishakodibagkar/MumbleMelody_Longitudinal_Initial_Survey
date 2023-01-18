@@ -15,15 +15,10 @@
 	        "allow": [
                     "reproschema:Skipped"
                 ]
-                },
-	        {"isAbout": "items/question_2_item",
-                "variableName": "question_2_item",
-                "isVis": true
                 }
         ],
         "order": [
-	    "items/question_1_item",
-            "items/question_2_item"
+	    "items/question_1_item"
         ],
         "shuffle": false,
         "allow": [
