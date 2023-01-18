@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_15_item",
+    "prefLabel": "Question 15",
+    "description": "Question 15",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Are there particular words or sounds for which you stutter more?",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 1200
+    }
+}
