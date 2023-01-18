@@ -1,0 +1,33 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_11_item",
+    "prefLabel": "Question 11",
+    "description": "Question 11",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Are you right or left handed?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Right handed",
+                "value": 0
+            },
+            {
+                "name": "Left Handed",
+                "value": 1
+            },
+            {
+                "name": "Ambidextrous",
+                "value": 2
+            }
+        ]
+    }
+}

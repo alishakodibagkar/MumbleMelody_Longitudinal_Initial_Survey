@@ -106,6 +106,13 @@
 	        "allow": [
                     "reproschema:Skipped"
                 ]
+                },
+	       {"isAbout": "items/question_11_item",
+                "variableName": "question_11_item",
+                "isVis": true,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
                 }
         ],
         "order": [
@@ -122,7 +129,8 @@
              "items/question_7_item",
              "items/question_8_item",
              "items/question_9_item",
-             "items/question_10_item"
+             "items/question_10_item",
+             "items/question_11_item"
         ],
         "shuffle": false,
         "allow": [
