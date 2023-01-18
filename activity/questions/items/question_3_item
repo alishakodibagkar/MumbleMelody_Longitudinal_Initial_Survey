@@ -1,0 +1,49 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_3_item",
+    "prefLabel": "Question 3",
+    "description": "Question 3 - radio item",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "What is your gender?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 6,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Woman",
+                "value": 0
+            },
+            {
+                "name": "Man",
+                "value": 1
+            },
+            {
+                "name": "Trans woman",
+                "value": 2
+            },
+            {
+                "name": "Trans man",
+                "value": 3
+            },
+            {
+                "name": "Non-binary",
+                "value": 4
+            },
+            {
+                "name": "Prefer not to disclose",
+                "value": 5
+            },
+            {
+                "name": "Other, please specify",
+                "value": 6
+            }
+        ]
+    }
+}
