@@ -130,17 +130,11 @@
                 },
 	       {"isAbout": "items/question_12.1_item",
                 "variableName": "question_12.1_item",
-                "isVis": "question_12_item === 0",
-	        "allow": [
-                    "reproschema:Skipped"
-                ]
+                "isVis": "question_12_item === 0"
                 },
 	       {"isAbout": "items/question_12.2_item",
                 "variableName": "question_12.2_item",
-                "isVis": "question_12_item === 1",
-	        "allow": [
-                    "reproschema:Skipped"
-                ]
+                "isVis": "question_12_item === 1"
                 },
 	       {"isAbout": "items/question_12.3_item",
                 "variableName": "question_12.3_item",
