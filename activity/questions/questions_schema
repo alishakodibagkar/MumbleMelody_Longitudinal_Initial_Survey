@@ -1,37 +1,33 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Activity",
-    "@id": "questions_schema",
-    "prefLabel": "Questions",
-    "description": "Questions for the day",
-    "preamble": "Please tell us more about yourself! You may answer any or all of these survey questions. Please do not include any identifying information (such as name or address) in your responses if you choose to answer the fill-in questions.",
+    "@type": "reproschema:Field",
+    "@id": "question_item_2,
+    "prefLabel": "radio item",
+    "description": "This is a radio item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
+    "question": "This is an example of a radio item with several possible answers to choose from (only one answer allowed).",
     "ui": {
-        "addProperties": [
-		{"isAbout": "items/question_1_item",
-                "variableName": "question_1_item",
-                "isVis": true,
-	        "allow": [
-                    "reproschema:Skipped"
-                ]
-                },
-	        {"isAbout": "items/question_2_item",
-                "variableName": "question_2_item",
-                "isVis": true,
-	        "allow": [
-                    "reproschema:Skipped"
-                ]
-                }
-        ],
-        "order": [
-	    "items/question_1_item",
-             "items/question_2_item"
-        ],
-        "shuffle": false,
-        "allow": [
-			"reproschema:AutoAdvance",
-			"reproschema:AllowExport"
-		]
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Response option 1",
+                "value": 0
+            },
+            {
+                "name": "Response option 2",
+                "value": 1
+            },
+            {
+                "name": "Response option 3",
+                "value": 2
+            }
+        ]
     }
 }
