@@ -64,6 +64,20 @@
 	        "allow": [
                     "reproschema:Skipped"
                 ]
+                },
+	       {"isAbout": "items/question_6_item",
+                "variableName": "question_6_item",
+                "isVis": true,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_6.1_item",
+                "variableName": "question_6.1_item",
+                "isVis": question_6_item === 4,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
                 }
         ],
         "order": [
@@ -74,7 +88,9 @@
              "items/question_4_item",
              "items/question_4.1_item",
              "items/question_5_item",
-             "items/question_5.1_item"
+             "items/question_5.1_item",
+             "items/question_6_item",
+             "items/question_6.1_item"
         ],
         "shuffle": false,
         "allow": [

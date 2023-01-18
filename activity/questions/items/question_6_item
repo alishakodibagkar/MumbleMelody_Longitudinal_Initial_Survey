@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_6_item",
+    "prefLabel": "Question 6",
+    "description": "Question 6",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Do you have any other speech/vocal disorders?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "No",
+                "value": 0
+            },
+            {
+                "name": "Aphasia",
+                "value": 1
+            },
+            {
+                "name": "Amusia",
+                "value": 2
+            },
+            {
+                "name": "Disphasia",
+                "value": 3
+            },
+            {
+                "name": "Other, please specify",
+                "value": 4
+            }
+        ]
+    }
+}
