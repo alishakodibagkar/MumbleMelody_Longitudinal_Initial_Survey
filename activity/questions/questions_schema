@@ -29,12 +29,20 @@
 	        "allow": [
                     "reproschema:Skipped"
                 ]
+                },
+	       {"isAbout": "items/question_3.1_item",
+                "variableName": "question_3.1_item",
+                "isVis": "question_3_item === 6",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
                 }
         ],
         "order": [
 	    "items/question_1_item",
              "items/question_2_item",
-             "items/question_3_item"
+             "items/question_3_item",
+             "items/question_3.1_item"
         ],
         "shuffle": false,
         "allow": [

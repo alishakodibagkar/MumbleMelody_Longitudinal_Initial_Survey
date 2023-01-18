@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_3.1_item",
+    "prefLabel": "Question 3.1",
+    "description": "Question 3.1 - radio item",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Specify your gender:",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}
