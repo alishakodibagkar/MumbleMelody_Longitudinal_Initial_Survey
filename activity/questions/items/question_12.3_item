@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "Please specify:",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string",

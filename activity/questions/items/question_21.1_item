@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "If yes, how are you related to them?",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string",

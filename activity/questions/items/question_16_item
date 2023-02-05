@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "What are some instances in which you feel you stutter more?",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string",

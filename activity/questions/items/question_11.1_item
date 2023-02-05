@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "If ambidextrous, what activities do you use each side for?",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string",

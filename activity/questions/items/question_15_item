@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "Are there particular words or sounds for which you stutter more?",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string",
