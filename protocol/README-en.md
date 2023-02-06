@@ -21,7 +21,7 @@
 
 <section>
   <div class="text" style="padding-top: 1rem">
-    <h3>Total Session Time: ~10-15 MINUTES</h3>
+    <h3>Total Survey Time: ~10-15 MINUTES</h3>
   </div>
 </div>
 
