@@ -6,55 +6,47 @@
     "description": "Question 9",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "What is your education level?",
+    "question": "If you answered yes to any of the previous conditions, how long ago did you start having them? (Refer to the condition you had for the longest time)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 9,
+        "maxValue": 7,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "No schooling completed",
+                "name": "Starting from before 2 years old",
                 "value": 0
             },
             {
-                "name": "Nursery school to 8th grade",
+                "name": "Starting from 2-5 years old",
                 "value": 1
             },
             {
-                "name": "Some high school, no diploma",
+                "name": "Starting from 5-7 years old",
                 "value": 2
             },
             {
-                "name": "High school graduate, diploma or equivalent (ex: GED)",
+                "name": "Starting from 7-10 years old",
                 "value": 3
             },
             {
-                "name": "Some college credit, no degree",
+                "name": "Starting from 10-18 years old,
                 "value": 4
             },
             {
-                "name": "Trade/technical/vocational training",
+                "name": "Starting from after 18 years old",
                 "value": 5
             },
             {
-                "name": "Associate’s degree",
+                "name": "I don’t know",
                 "value": 6
             },
             {
-                "name": "Bachelor’s degree",
+                "name": "Not Applicable",
                 "value": 7
-            },
-            {
-                "name": "Master’s degree",
-                "value": 8
-            },
-            {
-                "name": "Doctorate degree",
-                "value": 9
             }
         ]
     }

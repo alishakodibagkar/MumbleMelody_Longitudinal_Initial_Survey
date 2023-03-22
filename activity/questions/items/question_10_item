@@ -6,35 +6,43 @@
     "description": "Question 10",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "What is your household composition?",
+    "question": "When did you start stuttering?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 4,
+        "maxValue": 6,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Single, never married",
+                "name": "Before 2 years old",
                 "value": 0
             },
             {
-                "name": "Married or domestic partnership",
+                "name": "2-5 years old",
                 "value": 1
             },
             {
-                "name": "Widowed",
+                "name": "5-7 years old",
                 "value": 2
             },
             {
-                "name": "Divorced",
+                "name": "7-10 years old",
                 "value": 3
             },
             {
-                "name": "Separated",
+                "name": "10-18 years old",
                 "value": 4
+            },
+            {
+                "name": "After 18 years old",
+                "value": 5
+            },
+            {
+                "name": "I don’t know",
+                "value": 6
             }
         ]
     }

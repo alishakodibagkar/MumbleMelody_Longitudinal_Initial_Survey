@@ -6,35 +6,27 @@
     "description": "Question 14",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Does your inner voice/monologue stutter?",
+    "question": "Are you right or left handed?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 4,
+        "maxValue": 2,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Never",
+                "name": "Right handed",
                 "value": 0
             },
             {
-                "name": "Rarely",
+                "name": "Left Handed",
                 "value": 1
             },
             {
-                "name": "Occasionally",
+                "name": "Ambidextrous",
                 "value": 2
-            },
-            {
-                "name": "Often",
-                "value": 3
-            },
-            {
-                "name": "Always",
-                "value": 4
             }
         ]
     }

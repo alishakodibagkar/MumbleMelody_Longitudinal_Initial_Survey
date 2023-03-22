@@ -6,35 +6,55 @@
     "description": "Question 8",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "How would you rate your fluency?",
+    "question": "Have you previously ever had any other conditions that may affect speech, voice, or language?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 4,
-        "multipleChoice": false,
+        "maxValue": 9,
+        "multipleChoice": true,
         "choices": [
             {
-                "name": "Mild stutter",
+                "name": "No",
                 "value": 0
             },
             {
-                "name": "Mild/moderate stutter",
+                "name": "Aphasia",
                 "value": 1
             },
             {
-                "name": "Moderate stutter",
+                "name": "Amusia",
                 "value": 2
             },
             {
-                "name": "Moderate/Severe Stutter",
+                "name": "Apraxia",
                 "value": 3
             },
             {
-                "name": "Severe stutter",
+                "name": "Parkinson’s disease",
                 "value": 4
+            },
+            {
+                "name": "Any language disorder",
+                "value": 5
+            },
+            {
+                "name": "Any learning disability",
+                "value": 6
+            },
+            {
+                "name": "Dyslexia",
+                "value": 7
+            },
+            {
+                "name": "Attention Deficit Hyperactivity Disorder (ADHD)",
+                "value": 8
+            },
+            {
+                "name": "Other, please specify",
+                "value": 9
             }
         ]
     }

@@ -1,17 +1,17 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_6.1_item",
-    "prefLabel": "Question 6.1",
-    "description": "Question 6.1",
+    "@id": "question_25.1_item",
+    "prefLabel": "Question 25.1",
+    "description": "Question 25.1",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "If you selected "Other", please specify:",
+    "question": "If yes, how are you related to them?",
     "ui": {
         "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "maxLength": 300
+        "maxLength": 1200
     }
 }

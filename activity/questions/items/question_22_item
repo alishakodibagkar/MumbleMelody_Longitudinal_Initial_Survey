@@ -6,31 +6,35 @@
     "description": "Question 22",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you sing or play a musical instrument?",
+    "question": "How often do you use different words when you think you may stutter?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 3,
+        "maxValue": 4,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Yes, I sing",
+                "name": "Never",
                 "value": 0
             },
             {
-                "name": "Yes, I play a musical instrument",
+                "name": "Rarely",
                 "value": 1
             },
             {
-                "name": "Yes, both",
+                "name": "Occasionally",
                 "value": 2
             },
             {
-                "name": "No",
+                "name": "Often",
                 "value": 3
+            },
+            {
+                "name": "Always",
+                "value": 4
             }
         ]
     }

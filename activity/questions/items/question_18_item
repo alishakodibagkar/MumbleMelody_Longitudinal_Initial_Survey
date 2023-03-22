@@ -6,36 +6,12 @@
     "description": "Question 18",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you ever have a sense that you will stutter a short instant before stuttering?",
+    "question": "Are there particular words or sounds for which you stutter more?",
     "ui": {
-        "inputType": "radio"
+        "inputType": "textarea"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 4,
-        "multipleChoice": false,
-        "choices": [
-            {
-                "name": "Never",
-                "value": 0
-            },
-            {
-                "name": "Rarely",
-                "value": 1
-            },
-            {
-                "name": "Occasionally",
-                "value": 2
-            },
-            {
-                "name": "Often",
-                "value": 3
-            },
-            {
-                "name": "Always",
-                "value": 4
-            }
-        ]
+        "valueType": "xsd:string",
+        "maxLength": 1200
     }
 }

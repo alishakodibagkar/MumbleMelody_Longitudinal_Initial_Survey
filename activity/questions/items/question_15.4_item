@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_6.1_item",
-    "prefLabel": "Question 6.1",
-    "description": "Question 6.1",
+    "@id": "question_15.4_item",
+    "prefLabel": "Question 15.4",
+    "description": "Question 15.4",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "If you selected "Other", please specify:",
+    "question": "Please specify:",
     "ui": {
         "inputType": "textarea"
     },

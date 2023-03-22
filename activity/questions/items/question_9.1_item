@@ -1,52 +1,48 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_7_item",
-    "prefLabel": "Question 7",
-    "description": "Question 7",
+    "@id": "question_9.1_item",
+    "prefLabel": "Question 9.1",
+    "description": "Question 9.1",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "If you answered yes to any of the previous conditions, how long have you had them? (Refer to the condition you have had for the longest time).",
+    "question": "If you answered yes to any of the previous conditions, when did you stop having them? (Refer to the condition you had for the longest time)",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 7,
+        "maxValue": 6,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Since before 2 years old",
+                "name": "Less than 1 year ago",
                 "value": 0
             },
             {
-                "name": "Since 2-5 years old",
+                "name": "1-2 years ago",
                 "value": 1
             },
             {
-                "name": "Since 5-7 years old",
+                "name": "2-5 years ago",
                 "value": 2
             },
             {
-                "name": "Since 7-10 years old",
+                "name": "5-7 years ago",
                 "value": 3
             },
             {
-                "name": "Since 10-18 years old,
+                "name": "7-10 years ago",
                 "value": 4
             },
             {
-                "name": "Since after 18 years old",
+                "name": "Over 10 years ago",
                 "value": 5
-            },
-            {
-                "name": "I don’t know",
-                "value": 6
-            },
+            } ,
             {
                 "name": "Not Applicable",
-                "value": 7
+                "value": 6
             }
         ]
     }

@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question_4.2_item",
+    "prefLabel": "Question 4.2",
+    "description": "Question 4.2",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "What is your proficiency in English?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Basic: I know vocabulary words and am able to speak simple phrases or sentences, but I have some difficulty understanding native speakers",
+                "value": 0
+            },
+            {
+                "name": "Conversational: I can ask and answer questions and participate in simple conversations on topics.",
+                "value": 1
+            },
+            {
+                "name": "Proficient:  I am skilled in the language but am at a less-advanced level than a native or fluent speaker.",
+                "value": 2
+            },
+            {
+                "name": "Fluent: I have a high level of language proficiency in the language",
+                "value": 3
+            }
+        ]
+    }
+}

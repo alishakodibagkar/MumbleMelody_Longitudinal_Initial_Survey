@@ -6,15 +6,15 @@
     "description": "Question 6",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you have any other speech/vocal disorders?",
+    "question": "Do you currently have any other conditions that may affect speech, voice, or language?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 4,
-        "multipleChoice": false,
+        "maxValue": 9,
+        "multipleChoice": true,
         "choices": [
             {
                 "name": "No",
@@ -29,12 +29,32 @@
                 "value": 2
             },
             {
-                "name": "Disphasia",
+                "name": "Apraxia",
                 "value": 3
             },
             {
-                "name": "Other, please specify",
+                "name": "Parkinson’s disease",
                 "value": 4
+            },
+            {
+                "name": "Any language disorder",
+                "value": 5
+            },
+            {
+                "name": "Any learning disability",
+                "value": 6
+            },
+            {
+                "name": "Dyslexia",
+                "value": 7
+            },
+            {
+                "name": "Attention Deficit Hyperactivity Disorder (ADHD)",
+                "value": 8
+            },
+            {
+                "name": "Other, please specify",
+                "value": 9
             }
         ]
     }

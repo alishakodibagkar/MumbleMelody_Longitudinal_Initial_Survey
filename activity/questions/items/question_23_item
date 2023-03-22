@@ -1,41 +1,17 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_22_item",
-    "prefLabel": "Question 22",
-    "description": "Question 22",
+    "@id": "question_23_item",
+    "prefLabel": "Question 23",
+    "description": "Question 23",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "How often do you experience verbalized mental thoughts (rehearsing talking in your head?)",
+    "question": "Do you have any other strategies to compensate for stuttering or to increase fluency? (i.e. choice of word, slowing down, whispering, preparation, pull-out, preparatory set, etc.?)",
     "ui": {
-        "inputType": "radio"
+        "inputType": "textarea"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 4,
-        "multipleChoice": false,
-        "choices": [
-            {
-                "name": "All the time",
-                "value": 0
-            },
-            {
-                "name": "A few times an hour",
-                "value": 1
-            },
-            {
-                "name": "A few times a day",
-                "value": 2
-            },
-            {
-                "name": "Less than once a day",
-                "value": 3
-            },
-            {
-                "name": "Never",
-                "value": 4
-            }
-        ]
+        "valueType": "xsd:string",
+        "maxLength": 1200
     }
 }

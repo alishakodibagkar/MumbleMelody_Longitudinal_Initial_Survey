@@ -1,40 +1,32 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_16_item",
-    "prefLabel": "Question 16",
-    "description": "Question 16",
+    "@id": "question_25_item",
+    "prefLabel": "Question 25",
+    "description": "Question 25",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you stutter in your dreams?",
+    "question": "Do you have relatives who stutter?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 4,
+        "maxValue": 2,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Never",
+                "name": "Yes",
                 "value": 0
             },
             {
-                "name": "Rarely",
+                "name": "No",
                 "value": 1
             },
             {
-                "name": "Occasionally",
+                "name": "I don’t know",
                 "value": 2
-            },
-            {
-                "name": "Often",
-                "value": 3
-            },
-            {
-                "name": "Always",
-                "value": 4
             }
         ]
     }

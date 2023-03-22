@@ -1,40 +1,36 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_16_item",
-    "prefLabel": "Question 16",
-    "description": "Question 16",
+    "@id": "question_26_item",
+    "prefLabel": "Question 26",
+    "description": "Question 26",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you stutter in your dreams?",
+    "question": "Do you sing or play a musical instrument?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 4,
+        "maxValue": 3,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Never",
+                "name": "Yes, I sing",
                 "value": 0
             },
             {
-                "name": "Rarely",
+                "name": "Yes, I play a musical instrument",
                 "value": 1
             },
             {
-                "name": "Occasionally",
+                "name": "Yes, both",
                 "value": 2
             },
             {
-                "name": "Often",
+                "name": "No",
                 "value": 3
-            },
-            {
-                "name": "Always",
-                "value": 4
             }
         ]
     }

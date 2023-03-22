@@ -6,35 +6,79 @@
     "description": "Question 19",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "How often do you change words when you think you may stutter?",
+    "question": "What are some instances in which you feel you stutter more?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 4,
-        "multipleChoice": false,
+        "maxValue": 15,
+        "multipleChoice": true,
         "choices": [
             {
-                "name": "Never",
+                "name": "When talking with family",
                 "value": 0
             },
             {
-                "name": "Rarely",
+                "name": "When talking alone",
                 "value": 1
             },
             {
-                "name": "Occasionally",
+                "name": "When reading out loud",
                 "value": 2
             },
             {
-                "name": "Often",
+                "name": "When talking to children",
                 "value": 3
             },
             {
-                "name": "Always",
+                "name": "When talking to pets",
                 "value": 4
+            },
+            {
+                "name": "When singing",
+                "value": 5
+            },
+            {
+                "name": "When talking with friends",
+                "value": 6
+            },
+            {
+                "name": "When talking with coworkers",
+                "value": 7
+            },
+            {
+                "name": "In social situations with strangers",
+                "value": 8
+            },
+            {
+                "name": "When talking to people of authority",
+                "value": 9
+            },
+            {
+                "name": "During interviews",
+                "value": 10
+            },
+            {
+                "name": "After having a couple of drinks",
+                "value": 11
+            },
+            {
+                "name": "When talking on the phone",
+                "value": 12
+            },
+            {
+                "name": "When talking on Zoom or another video call",
+                "value": 13
+            },
+            {
+                "name": "When talking in front of people",
+                "value": 14
+            },
+            {
+                "name": "Other",
+                "value": 15
             }
         ]
     }

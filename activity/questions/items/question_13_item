@@ -6,7 +6,7 @@
     "description": "Question 13",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you stutter in your dreams?",
+    "question": "What is your household composition?",
     "ui": {
         "inputType": "radio"
     },
@@ -17,23 +17,23 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Never",
+                "name": "Single, never married",
                 "value": 0
             },
             {
-                "name": "Rarely",
+                "name": "Married or domestic partnership",
                 "value": 1
             },
             {
-                "name": "Occasionally",
+                "name": "Widowed",
                 "value": 2
             },
             {
-                "name": "Often",
+                "name": "Divorced",
                 "value": 3
             },
             {
-                "name": "Always",
+                "name": "Separated",
                 "value": 4
             }
         ]

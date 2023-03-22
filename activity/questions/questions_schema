@@ -51,6 +51,13 @@
                     "reproschema:Skipped"
                 ]
                 },
+	       {"isAbout": "items/question_4.2_item",
+                "variableName": "question_4.2_item",
+                "isVis": "question_4_item === 1",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
 	       {"isAbout": "items/question_5_item",
                 "variableName": "question_5_item",
                 "isVis": true,
@@ -74,7 +81,7 @@
                 },
 	       {"isAbout": "items/question_6.1_item",
                 "variableName": "question_6.1_item",
-                "isVis": "question_6_item === 4",
+                "isVis": true,
 	        "allow": [
                     "reproschema:Skipped"
                 ]
@@ -93,8 +100,22 @@
                     "reproschema:Skipped"
                 ]
                 },
+	       {"isAbout": "items/question_8.1_item",
+                "variableName": "question_8.1_item",
+                "isVis": true,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
 	       {"isAbout": "items/question_9_item",
                 "variableName": "question_9_item",
+                "isVis": true,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_9.1_item",
+                "variableName": "question_9.1_item",
                 "isVis": true,
 	        "allow": [
                     "reproschema:Skipped"
@@ -114,44 +135,9 @@
                     "reproschema:Skipped"
                 ]
                 },
-	       {"isAbout": "items/question_11.1_item",
-                "variableName": "question_11.1_item",
-                "isVis": "question_11_item === 2",
-	        "allow": [
-                    "reproschema:Skipped"
-                ]
-                },
 	       {"isAbout": "items/question_12_item",
                 "variableName": "question_12_item",
                 "isVis": true,
-	        "allow": [
-                    "reproschema:Skipped"
-                ]
-                },
-	       {"isAbout": "items/question_12.1_item",
-                "variableName": "question_12.1_item",
-                "isVis": "question_12_item === 0",
-	        "allow": [
-                    "reproschema:Skipped"
-                ]
-                },
-	       {"isAbout": "items/question_12.2_item",
-                "variableName": "question_12.2_item",
-                "isVis": "question_12_item === 1",
-	        "allow": [
-                    "reproschema:Skipped"
-                ]
-                },
-	       {"isAbout": "items/question_12.3_item",
-                "variableName": "question_12.3_item",
-                "isVis": "question_12.1_item === 3",
-	        "allow": [
-                    "reproschema:Skipped"
-                ]
-                },
-	       {"isAbout": "items/question_12.4_item",
-                "variableName": "question_12.4_item",
-                "isVis": "question_12.2_item === 3",
 	        "allow": [
                     "reproschema:Skipped"
                 ]
@@ -170,9 +156,44 @@
                     "reproschema:Skipped"
                 ]
                 },
+	       {"isAbout": "items/question_14.1_item",
+                "variableName": "question_14.1_item",
+                "isVis": "question_14_item === 2",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
 	       {"isAbout": "items/question_15_item",
                 "variableName": "question_15_item",
                 "isVis": true,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_15.1_item",
+                "variableName": "question_15.1_item",
+                "isVis": "question_15_item === 0",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_15.2_item",
+                "variableName": "question_15.2_item",
+                "isVis": "question_15_item === 1",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_15.3_item",
+                "variableName": "question_15.3_item",
+                "isVis": "question_15.1_item === 3",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_15.4_item",
+                "variableName": "question_15.4_item",
+                "isVis": "question_15.2_item === 3",
 	        "allow": [
                     "reproschema:Skipped"
                 ]
@@ -205,8 +226,22 @@
                     "reproschema:Skipped"
                 ]
                 },
+	       {"isAbout": "items/question_19.1_item",
+                "variableName": "question_19.1_item",
+                "isVis": true,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
 	       {"isAbout": "items/question_20_item",
                 "variableName": "question_20_item",
+                "isVis": true,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_20.1_item",
+                "variableName": "question_20.1_item",
                 "isVis": true,
 	        "allow": [
                     "reproschema:Skipped"
@@ -219,23 +254,75 @@
                     "reproschema:Skipped"
                 ]
                 },
-	       {"isAbout": "items/question_21.1_item",
-                "variableName": "question_21.1_item",
-                "isVis": "question_21_item === 0",
-	        "allow": [
-                    "reproschema:Skipped"
-                ]
-                },
 	       {"isAbout": "items/question_22_item",
                 "variableName": "question_22_item",
-                "isVis": "question_21_item === 0",
+                "isVis": true,
 	        "allow": [
                     "reproschema:Skipped"
                 ]
                 },
 	       {"isAbout": "items/question_23_item",
                 "variableName": "question_23_item",
-                "isVis": "question_21_item === 0",
+                "isVis": true,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },,
+	       {"isAbout": "items/question_24_item",
+                "variableName": "question_24_item",
+                "isVis": true,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_25_item",
+                "variableName": "question_25_item",
+                "isVis": true,
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_25.1_item",
+                "variableName": "question_25.1_item",
+                "isVis": "question_25_item === 0",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_26_item",
+                "variableName": "question_26_item",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_26.1_item",
+                "variableName": "question_26.1_item",
+                "isVis": "question_26_item === 1",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_26.2_item",
+                "variableName": "question_26.2_item",
+                "isVis": "question_26.1_item === 5",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_27_item",
+                "variableName": "question_27_item",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_28_item",
+                "variableName": "question_28_item",
+	        "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+	       {"isAbout": "items/question_29_item",
+                "variableName": "question_29_item",
 	        "allow": [
                     "reproschema:Skipped"
                 ]
@@ -254,27 +341,39 @@
              "items/question_6.1_item",
              "items/question_7_item",
              "items/question_8_item",
+             "items/question_8.1_item",
              "items/question_9_item",
+             "items/question_9.1_item",
              "items/question_10_item",
              "items/question_11_item",
-             "items/question_11.1_item",
              "items/question_12_item",
-             "items/question_12.1_item",
-             "items/question_12.2_item",
-             "items/question_12.3_item",
-             "items/question_12.4_item",
              "items/question_13_item",
              "items/question_14_item",
+             "items/question_14.1_item",
              "items/question_15_item",
+             "items/question_15.1_item",
+             "items/question_15.2_item",
+             "items/question_15.3_item",
+             "items/question_15.4_item",
              "items/question_16_item",
              "items/question_17_item",
              "items/question_18_item",
              "items/question_19_item",
+             "items/question_19.1_item",
              "items/question_20_item",
+             "items/question_20.1_item",
              "items/question_21_item",
-             "items/question_21.1_item",
              "items/question_22_item",
-             "items/question_23_item"
+             "items/question_23_item",
+	     "items/question_24_item",
+             "items/question_25_item",
+             "items/question_25.1_item",
+             "items/question_26_item",
+             "items/question_26.1_item",
+	     "items/question_26.2_item",
+             "items/question_27_item",
+             "items/question_28_item",
+             "items/question_29_item"
         ],
         "shuffle": false,
         "allow": [

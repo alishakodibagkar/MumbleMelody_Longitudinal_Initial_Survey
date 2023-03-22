@@ -6,27 +6,35 @@
     "description": "Question 21",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you have relatives who stutter?",
+    "question": "Can you anticipate that you will stutter a short instant before stuttering?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 2,
+        "maxValue": 4,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Yes",
+                "name": "Never",
                 "value": 0
             },
             {
-                "name": "No",
+                "name": "Rarely",
                 "value": 1
             },
             {
-                "name": "I don’t know",
+                "name": "Occasionally",
                 "value": 2
+            },
+            {
+                "name": "Often",
+                "value": 3
+            },
+            {
+                "name": "Always",
+                "value": 4
             }
         ]
     }

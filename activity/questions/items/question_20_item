@@ -6,12 +6,80 @@
     "description": "Question 20",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you have any other techniques to increase fluency? (i.e. choice of word, slowing down, whispering, preparation, pull-out, preparatory set, etc.?)",
+    "question": "What are some instances in which you feel you stutter less?",
     "ui": {
-        "inputType": "textarea"
+        "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 1200
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 15,
+        "multipleChoice": true,
+        "choices": [
+            {
+                "name": "When talking with family",
+                "value": 0
+            },
+            {
+                "name": "When talking alone",
+                "value": 1
+            },
+            {
+                "name": "When reading out loud",
+                "value": 2
+            },
+            {
+                "name": "When talking to children",
+                "value": 3
+            },
+            {
+                "name": "When talking to pets",
+                "value": 4
+            },
+            {
+                "name": "When singing",
+                "value": 5
+            },
+            {
+                "name": "When talking with friends",
+                "value": 6
+            },
+            {
+                "name": "When talking with coworkers",
+                "value": 7
+            },
+            {
+                "name": "In social situations with strangers",
+                "value": 8
+            },
+            {
+                "name": "When talking to people of authority",
+                "value": 9
+            },
+            {
+                "name": "During interviews",
+                "value": 10
+            },
+            {
+                "name": "After having a couple of drinks",
+                "value": 11
+            },
+            {
+                "name": "When talking on the phone",
+                "value": 12
+            },
+            {
+                "name": "When talking on Zoom or another video call",
+                "value": 13
+            },
+            {
+                "name": "When talking in front of people",
+                "value": 14
+            },
+            {
+                "name": "Other",
+                "value": 15
+            }
+        ]
     }
 }

@@ -6,27 +6,35 @@
     "description": "Question 11",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Are you right or left handed?",
+    "question": "How would you rate your fluency?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 2,
+        "maxValue": 4,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Right handed",
+                "name": "Mild stutter",
                 "value": 0
             },
             {
-                "name": "Left Handed",
+                "name": "Mild/moderate stutter",
                 "value": 1
             },
             {
-                "name": "Ambidextrous",
+                "name": "Moderate stutter",
                 "value": 2
+            },
+            {
+                "name": "Moderate/Severe Stutter",
+                "value": 3
+            },
+            {
+                "name": "Severe stutter",
+                "value": 4
             }
         ]
     }

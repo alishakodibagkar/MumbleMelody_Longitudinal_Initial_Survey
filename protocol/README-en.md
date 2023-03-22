@@ -3,7 +3,7 @@
         <div style="
           height: 30vw;
           min-height: 15rem;
-          background-image: url(https://raw.githubusercontent.com/alishakodibagkar/MumbleMelody_Longitudinal_Initial_Survey/master/protocol/mainlogooval2.svg);
+          background-image: url(https://raw.githubusercontent.com/alishakodibagkar/MumbleMelody_Longitudinal_Initial_Survey/master/protocol/initial_survey.png);
           background-position: center;
           background-size: contain;
           background-repeat: no-repeat">

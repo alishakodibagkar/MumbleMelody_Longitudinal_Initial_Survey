@@ -1,40 +1,36 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_16_item",
-    "prefLabel": "Question 16",
-    "description": "Question 16",
+    "@id": "question_15.1_item",
+    "prefLabel": "Question 15.1",
+    "description": "Question 15.1",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you stutter in your dreams?",
+    "question": "Does your therapy focus more on accepting or reducing stuttering?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 4,
+        "maxValue": 3,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Never",
+                "name": "Accepting",
                 "value": 0
             },
             {
-                "name": "Rarely",
+                "name": "Reducing",
                 "value": 1
             },
             {
-                "name": "Occasionally",
+                "name": "Both",
                 "value": 2
             },
             {
-                "name": "Often",
+                "name": "Other, please specify",
                 "value": 3
-            },
-            {
-                "name": "Always",
-                "value": 4
             }
         ]
     }
