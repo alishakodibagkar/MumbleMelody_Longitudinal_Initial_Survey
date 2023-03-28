@@ -267,7 +267,7 @@
 	        "allow": [
                     "reproschema:Skipped"
                 ]
-                },,
+                },
 	       {"isAbout": "items/question_24_item",
                 "variableName": "question_24_item",
                 "isVis": true,
