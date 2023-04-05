@@ -6,7 +6,7 @@
     "description": "Question 6.1",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "If you selected "Other", please specify:",
+    "question": "If you selected Other, please specify:",
     "ui": {
         "inputType": "textarea"
     },
