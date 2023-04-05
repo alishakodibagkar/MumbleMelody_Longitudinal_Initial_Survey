@@ -88,7 +88,7 @@
                 },
 	       {"isAbout": "items/question_7_item",
                 "variableName": "question_7_item",
-                "isVis": "question_6_item != 0",
+                "isVis": true,
 	        "allow": [
                     "reproschema:Skipped"
                 ]
@@ -109,7 +109,7 @@
                 },
 	       {"isAbout": "items/question_9_item",
                 "variableName": "question_9_item",
-                "isVis": "question_8_item != 0",
+                "isVis": true,
 	        "allow": [
                     "reproschema:Skipped"
                 ]
