@@ -6,7 +6,7 @@
     "description": "Question 9",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "If you answered yes to any of the previous conditions, how long ago did you start having them? (Refer to the condition you had for the longest time)",
+    "question": "If you answered yes to any of the previous conditions, how long ago did you have them? (Refer to the condition you had the longest)",
     "ui": {
         "inputType": "radio"
     },
@@ -43,10 +43,6 @@
             {
                 "name": "I don’t know",
                 "value": 6
-            },
-            {
-                "name": "Not Applicable",
-                "value": 7
             }
         ]
     }

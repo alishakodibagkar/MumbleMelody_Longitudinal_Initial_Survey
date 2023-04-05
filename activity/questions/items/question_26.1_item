@@ -6,7 +6,7 @@
     "description": "Question 26.1",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "What instrument do you play? If you play multiple, what instrument do you play the most?",
+    "question": "What instrument do you play? (Select the instrument you play the most)",
     "ui": {
         "inputType": "radio"
     },

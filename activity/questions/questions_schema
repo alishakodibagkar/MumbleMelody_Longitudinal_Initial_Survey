@@ -88,7 +88,7 @@
                 },
 	       {"isAbout": "items/question_7_item",
                 "variableName": "question_7_item",
-                "isVis": true,
+                "isVis": "question_6_item != 0",
 	        "allow": [
                     "reproschema:Skipped"
                 ]
@@ -109,7 +109,7 @@
                 },
 	       {"isAbout": "items/question_9_item",
                 "variableName": "question_9_item",
-                "isVis": true,
+                "isVis": "question_8_item != 0",
 	        "allow": [
                     "reproschema:Skipped"
                 ]
@@ -297,7 +297,7 @@
                 },
 	       {"isAbout": "items/question_26.1_item",
                 "variableName": "question_26.1_item",
-                "isVis": "question_26_item === 1",
+                "isVis": "question_26_item === 1 || question_26_item === 2",
 	        "allow": [
                     "reproschema:Skipped"
                 ]
@@ -335,6 +335,7 @@
              "items/question_3.1_item",
              "items/question_4_item",
              "items/question_4.1_item",
+	     "items/question_4.2_item",
              "items/question_5_item",
              "items/question_5.1_item",
              "items/question_6_item",
@@ -343,7 +344,6 @@
              "items/question_8_item",
              "items/question_8.1_item",
              "items/question_9_item",
-             "items/question_9.1_item",
              "items/question_10_item",
              "items/question_11_item",
              "items/question_12_item",
