@@ -6,7 +6,7 @@ module.exports = {
   },
   banner: 'Survey for More Information: Mumble Melody Longitudinal Study',
   assetsPublicPath: '/MumbleMelody_Longitudinal_Initial_Survey/',
-  backendServer: 'https://sig.mit.edu/vb',
+  backendServer: 'https://mumble-melody.dandiarchive.org',
   contact: 'akodiba1@mit.edu',
   showHelp: true,
   checkMediaPermission: true
